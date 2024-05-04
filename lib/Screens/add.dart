@@ -20,9 +20,9 @@ class _Add_ScreenState extends State<Add_Screen> {
   FocusNode amount_ = FocusNode();
   final List<String> _item = [
     'food',
-    "Transfer",
+    "Transferencia",
     "Transportation",
-    "Education",
+    "educacao",
     "Farmacia"
   ];
   final List<String> _itemei = [
