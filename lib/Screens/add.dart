@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:app_mm_v2/data/model/add_date.dart';
+import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 class Add_Screen extends StatefulWidget {
@@ -22,7 +22,8 @@ class _Add_ScreenState extends State<Add_Screen> {
     'food',
     "Transfer",
     "Transportation",
-    "Education"
+    "Education",
+    "Farmacia"
   ];
   final List<String> _itemei = [
     'Income',

@@ -1,7 +1,8 @@
-import 'package:flutter/material.dart';
 import 'package:app_mm_v2/Screens/add.dart';
 import 'package:app_mm_v2/Screens/home.dart';
+import 'package:app_mm_v2/Screens/splash.dart';
 import 'package:app_mm_v2/Screens/statistics.dart';
+import 'package:flutter/material.dart';
 
 class Bottom extends StatefulWidget {
   const Bottom({Key? key}) : super(key: key);
@@ -12,7 +13,7 @@ class Bottom extends StatefulWidget {
 
 class _BottomState extends State<Bottom> {
   int index_color = 0;
-  List Screen = [Home(), Statistics(), Home(), Statistics()];
+  List Screen = [Home(), Statistics(), Home(), HomePage()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
